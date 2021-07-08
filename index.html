@@ -30,31 +30,40 @@
         h1 {
             color: #1D6B9A;
             text-align: center;
-            font-size: 240%;
+            font-size: 210%;
             font-family: 'Shabnam', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
 
         h2 {
             color: #1D6B9A;
             text-align: center;
-            font-size: 150%;
+            font-size: 140%;
             font-family: 'Shabnam', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
 
-        button, input{
+        input{
             text-align: center;
             font-family: 'Shabnam', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            width: 70%;
         }
 
-        input {
-            width: 70%;
+        button {
+            background-color: #55ACEE;
+            border: none;
+            color: White;
+            text-align: center;
+            font-size: 120%;
+            font-family: 'Shabnam', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
         }
 
 
         td {
-            padding: 0px 10px 0px 0px;
+            padding: 0px 15px 0px 0px;
             font-family: 'Shabnam', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
+
 
         h2 {
             font-size: 150%;
@@ -70,6 +79,7 @@
         }
 
         th {
+			padding: 10px 0px 0px 0px;
             text-align: Right;
             font-family: 'Shabnam', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
@@ -77,6 +87,12 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
+    }
+.aboutcent {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
     }
 .pic {
 	display: block;
@@ -166,6 +182,9 @@
                 <th class="num">مقدار کلسیم(mg)</th>
             </tr>
             <tr>
+                <th>لبنیات</th>
+            </tr>
+            <tr>
                 <td>شیر (کلیه انواع)</td>
                 <td>1 لیوان</td>
                 <td><input onClick="this.select();" type="number" id="r0" value="0" data-cal="325"/></td>
@@ -184,24 +203,35 @@
                 <td class="num">125</td>
             </tr>
             <tr>
-                <td>پنیر</td>
+                <td>پنیر سفید</td>
                 <td>1 قوطی کبریت</td>
                 <td><input onClick="this.select();" type="number" id="r3" value="0" data-cal="110"/></td>
                 <td class="num">110</td>
             </tr>
             <tr>
+                <td>پنیر پیتزا</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r4" value="0" data-cal="400"/></td>
+                <td class="num">400</td>
+            </tr>
+            <tr>
                 <td>بستنی</td>
                 <td>1 لیوان</td>
-                <td><input onClick="this.select();" type="number" id="r4" value="0" data-cal="180"/></td>
+                <td><input onClick="this.select();" type="number" id="r5" value="0" data-cal="180"/></td>
                 <td class="num">180</td>
             </tr>
             <tr>
                 <td>کشک</td>
                 <td>2 قاشق غذاخوری</td>
-                <td><input onClick="this.select();" type="number" id="r5" value="0" data-cal="145"/></td>
+                <td><input onClick="this.select();" type="number" id="r6" value="0" data-cal="145"/></td>
                 <td class="num">145</td>
             </tr>
-
+            <tr>
+                <td>قره قوروت</td>
+                <td>30 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r7" value="0" data-cal="850"/></td>
+                <td class="num">850</td>
+            </tr>
             <tr>
                 <th>سبزیجات و میوه‌ها</th>
             </tr>
@@ -209,38 +239,73 @@
             <tr>
                 <td>اسفناج (پخته)</td>
                 <td>نصف لیوان</td>
-                <td><input onClick="this.select();" type="number" id="r6" value="0" data-cal="138"/></td>
+                <td><input onClick="this.select();" type="number" id="r8" value="0" data-cal="138"/></td>
                 <td class="num">138</td>
             </tr>
+
             <tr>
-                <td>سبزی خوردن</td>
+                <td>سبزی خوردن (تخمینی)</td>
                 <td>1 پیش دستی (40 گرم)</td>
-                <td><input onClick="this.select();" type="number" id="r7" value="0" data-cal="72"/></td>
+                <td><input onClick="this.select();" type="number" id="r9" value="0" data-cal="72"/></td>
                 <td class="num">72</td>
             </tr>
             <tr>
                 <td>سبزی کوکو، قرمه سبزی، آش(پخته)</td>
                 <td>3 قاشق غذاخوری</td>
-                <td><input onClick="this.select();" type="number" id="r8" value="0" data-cal="100"/></td>
+                <td><input onClick="this.select();" type="number" id="r10" value="0" data-cal="100"/></td>
                 <td class="num">100</td>
             </tr>
             <tr>
                 <td>کلم (خام)</td>
                 <td>1 لیوان (95 گرم)</td>
-                <td><input onClick="this.select();" type="number" id="r9" value="0" data-cal="60"/></td>
+                <td><input onClick="this.select();" type="number" id="r11" value="0" data-cal="60"/></td>
                 <td class="num">60</td>
             </tr>
             <tr>
                 <td>پرتقال</td>
                 <td>1 عدد متوسط</td>
-                <td><input onClick="this.select();" type="number" id="r10" value="0" data-cal="52"/></td>
+                <td><input onClick="this.select();" type="number" id="r12" value="0" data-cal="52"/></td>
                 <td class="num">52</td>
+            </tr>
+
+            <tr>
+                <th>خشکبار</th>
             </tr>
             <tr>
                 <td>انجیر خشک</td>
                 <td>6 عدد متوسط</td>
-                <td><input onClick="this.select();" type="number" id="r11" value="0" data-cal="125"/></td>
+                <td><input onClick="this.select();" type="number" id="r13" value="0" data-cal="125"/></td>
                 <td class="num">125</td>
+            </tr>
+            <tr>
+                <td>بادام</td>
+                <td>50 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r14" value="0" data-cal="125"/></td>
+                <td class="num">125</td>
+            </tr>
+            <tr>
+                <td>فندق</td>
+                <td>50 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r15" value="0" data-cal="100"/></td>
+                <td class="num">100</td>
+            </tr>
+            <tr>
+                <td>آلبالو خشک</td>
+                <td>50 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r16" value="0" data-cal="100"/></td>
+                <td class="num">100</td>
+            </tr>
+            <tr>
+                <td>برگه زردآلو</td>
+                <td>50 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r17" value="0" data-cal="61"/></td>
+                <td class="num">61</td>
+            </tr>
+            <tr>
+                <td>تخمه آفتابگردان</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r18" value="0" data-cal="92"/></td>
+                <td class="num">92</td>
             </tr>
 
             <tr>
@@ -250,55 +315,78 @@
             <tr>
                 <td>ساردین در روغن با استخوان(پخته)</td>
                 <td>90 گرم</td>
-                <td><input onClick="this.select();" type="number" id="r12" value="0" data-cal="370"/></td>
+                <td><input onClick="this.select();" type="number" id="r19" value="0" data-cal="370"/></td>
                 <td class="num">370</td>
             </tr>
             <tr>
                 <td>کنسرو سالمون با استخوان</td>
                 <td>90 گرم</td>
-                <td><input onClick="this.select();" type="number" id="r13" value="0" data-cal="185"/></td>
+                <td><input onClick="this.select();" type="number" id="r20" value="0" data-cal="185"/></td>
                 <td class="num">185</td>
             </tr>
+
+            <tr>
+                <th>حبوبات</th>
+            </tr>
+            <tr>
+                <td>لوبیا سفید و قرمز (پخته)</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r21" value="0" data-cal="60"/></td>
+                <td class="num">60</td>
+            </tr>
+            <tr>
+                <td>نخود (پخته)</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r22" value="0" data-cal="60"/></td>
+                <td class="num">60</td>
+            </tr>
+            <tr>
+                <td>عدس (پخته)</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r23" value="0" data-cal="232"/></td>
+                <td class="num">232</td>
+            </tr>
+
+
 
             <tr>
                 <th>سایر منابع</th>
             </tr>
 
             <tr>
-                <td>انواع نان(بربری، سنگک، تافتون، لواش)</td>
-                <td>30 گرم</td>
-                <td><input onClick="this.select();" type="number" id="r14" value="0" data-cal="50"/></td>
-                <td class="num">50</td>
+                <td>نان بدون سبوس</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r24" value="0" data-cal="86"/></td>
+                <td class="num">86</td>
             </tr>
             <tr>
-                <td>لوبیا و نخود(پخته)</td>
-                <td>نصف لیوان</td>
-                <td><input onClick="this.select();" type="number" id="r15" value="0" data-cal="60"/></td>
-                <td class="num">60</td>
+                <td>نان کامل سبوس‌دار</td>
+                <td>100 گرم</td>
+                <td><input onClick="this.select();" type="number" id="r25" value="0" data-cal="104"/></td>
+                <td class="num">104</td>
             </tr>
             <tr>
                 <td>کنجاله سویا(پخته)</td>
                 <td>3 قاشق غذاخوری</td>
-                <td><input onClick="this.select();" type="number" id="r16" value="0" data-cal="33"/></td>
+                <td><input onClick="this.select();" type="number" id="r26" value="0" data-cal="33"/></td>
                 <td class="num">33</td>
             </tr>
             <tr>
-                <td>بادام</td>
-                <td>یک چهارم لیوان</td>
-                <td><input onClick="this.select();" type="number" id="r17" value="0" data-cal="92"/></td>
-                <td class="num">92</td>
+                <td>ماکارونی پخته‌شده</td>
+                <td>بشقاب متوسط</td>
+                <td><input onClick="this.select();" type="number" id="r27" value="0" data-cal="85"/></td>
+                <td class="num">85</td>
             </tr>
-
+            <tr>
+                <td>برنج پخته‌شده</td>
+                <td>بشقاب متوسط</td>
+                <td><input onClick="this.select();" type="number" id="r28" value="0" data-cal="32"/></td>
+                <td class="num">32</td>
+            </tr>
             <tr>
                 <td></td>
                 <td></td>
                 <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <th>
-                    <button id="calculate">محاسبه</button>
-                    <button id="reset">پاک کردن فرم</button>
-                </th>
             </tr>
 
             <tr id="output_placeholder">
@@ -306,7 +394,14 @@
             </tr>
         </table>
     </form>
+	&nbsp;
+	<div class="aboutcent">
+		<button id="calculate"><strong>محاسبه</strong></button>&nbsp;&nbsp;&nbsp;
+		<button id="reset"><strong>پاک کردن فرم</strong></button>
+
+	</div>
 </div>
+	&nbsp;
 <hr/>
 <div class="footer">
     <h2 class="about">میزان کلسیم مورد نیاز روزانه هر فرد</h2>
@@ -328,7 +423,7 @@
 
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript">
-    let item = 17;
+    let item = 28;
 
     $(document).ready(function () {
 
@@ -346,8 +441,8 @@
                 output += parseInt( $('#r'+i).val() ) * parseInt( $('#r'+i).attr('data-cal') );
             }
 			let w=parseInt(output/7)
-            console.log('میزان کلسیم مصرفی روزانه شما: ' + w);
-            $('#output').html('میزان کلسیم مصرفی روزانه شما: ' + w);
+            console.log('میزان تقریبی کلسیم مصرفی روزانه شما: ' + w);
+            $('#output').html('میزان تقریبی کلسیم مصرفی روزانه شما: ' + w);
             output_placeholder.show();
 
         });
