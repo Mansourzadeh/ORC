@@ -55,3 +55,11 @@
   border: 1px solid #c78181;
 }
 
+
+@media screen and (max-width: 600px) {
+
+  #quizWrap {
+            width: 80%;
+        }
+
+  }
