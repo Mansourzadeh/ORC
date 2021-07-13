@@ -38,7 +38,7 @@
 }
 #quizAns input[type=radio] { display: none; }
 #quizAns label {
-  background: #fafafa;
+  background: #a5b9a94d;
   border: 1px solid #eee;
   border-radius: 10px;
   padding: 10px;
