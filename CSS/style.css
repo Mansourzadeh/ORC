@@ -249,29 +249,25 @@ nav ul li a:hover {
 }
 
 
-
-
 @media screen and (max-width: 800px) {
 
-        td {
-            padding: 0px 5px 0px 0px;
+  table {
+            width: 80%;
         }
-        th {
-	padding: 0px;
-	}
   .about {
-            width: 70%;
+            width: 80%;
   }
   
   .flex-container {
-  width: 70%;
+  width: 80%;
   }
   .flex-item-right, .flex-item-left {
     flex: 100%;
 	margin-top: 20px;
   }
-  .icon-bar a {
-  font-size: 10px;
+  
+.icon-bar {
+  display: none;
 }
 
 nav ul li {
