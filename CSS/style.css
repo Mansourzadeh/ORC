@@ -257,4 +257,11 @@ nav ul li a:hover {
     flex: 100%;
 	margin-top: 20px;
   }
-  }
+  .icon-bar a {
+  font-size: 15px;
+}
+
+nav ul li {
+  display: block;
+}
+}
