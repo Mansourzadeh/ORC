@@ -92,9 +92,10 @@
   direction: ltr;
   text-align: center;
   font-family:sans-serif;
+  font-size:15px;
   color:white;
   width: 100%;
-  padding: 15px 0px 15px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .box {
@@ -111,11 +112,11 @@
   margin-top: 40px;
   text-align: center;
   padding: 10px;
-  flex: 40%;
+  flex: 45%;
 }
 .flex-item-leften {
   padding: 10px;
-  flex: 40%;
+  flex: 45%;
   direction: ltr;
 }
 
@@ -126,7 +127,7 @@
 }
 .flex-item-right {
   padding: 10px;
-  flex: 40%;
+  flex: 45%;
   line-height: normal;
 }
 .btnbox {
@@ -174,6 +175,9 @@
 	border: 1px solid #eee;
 	border-radius: 15px;
 }
+
+/* Floating Icon Bar */
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -209,6 +213,7 @@
 }
 
 
+/* Top Menu */
 
 nav {
   max-width: 960px;
@@ -248,10 +253,14 @@ nav ul li a:hover {
 @media screen and (max-width: 800px) {
 
   table {
-            width: 75%;
+            width: 80%;
         }
   .about {
-            width: 75%;
+            width: 80%;
+  }
+  
+  .flex-container {
+  width: 80%;
   }
   .flex-item-right, .flex-item-left {
     flex: 100%;
@@ -264,4 +273,6 @@ nav ul li a:hover {
 nav ul li {
   display: block;
 }
+.footertext {
+  font-size:13px;
 }
