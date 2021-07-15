@@ -250,24 +250,25 @@ nav ul li a:hover {
 
 
 
+
 @media screen and (max-width: 800px) {
 
   table {
-            width: 75%;
+            width: 70%;
         }
   .about {
-            width: 75%;
+            width: 70%;
   }
   
   .flex-container {
-  width: 75%;
+  width: 70%;
   }
   .flex-item-right, .flex-item-left {
     flex: 100%;
 	margin-top: 20px;
   }
   .icon-bar a {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 nav ul li {
