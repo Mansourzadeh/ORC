@@ -253,9 +253,12 @@ nav ul li a:hover {
 
 @media screen and (max-width: 800px) {
 
-  table {
-            width: 70%;
+        td {
+            padding: 0px 5px 0px 0px;
         }
+        th {
+	padding: 0px;
+	}
   .about {
             width: 70%;
   }
