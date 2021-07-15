@@ -272,6 +272,7 @@ nav ul li a:hover {
 
 nav ul li {
   display: block;
+  padding: 20px 0 40px 0;
 }
 .footertext {
   font-size:13px;
