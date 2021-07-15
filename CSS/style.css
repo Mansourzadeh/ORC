@@ -253,21 +253,21 @@ nav ul li a:hover {
 @media screen and (max-width: 800px) {
 
   table {
-            width: 80%;
+            width: 75%;
         }
   .about {
-            width: 80%;
+            width: 75%;
   }
   
   .flex-container {
-  width: 80%;
+  width: 75%;
   }
   .flex-item-right, .flex-item-left {
     flex: 100%;
 	margin-top: 20px;
   }
   .icon-bar a {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 nav ul li {
