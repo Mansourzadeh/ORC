@@ -20,9 +20,8 @@
 /* comments */
 #quizFn {
   border-top: 2px dashed #4c93ba;
-  background-image: url("../img/alert.png");
-  background-repeat: no-repeat;
-  background-position: right top;
+  background: #eee url("../img/alert.png") no-repeat right top;
+  border-radius: 0 0 10px 10px;
   height: auto;
   padding: 10px 110px 10px 10px;
   text-indent: 10px;
