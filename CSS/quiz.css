@@ -22,7 +22,7 @@
   border-top: 2px dashed #4c93ba;
   background-image: url("../img/alert.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right top;
   height: auto;
   padding: 10px 110px 10px 10px;
   text-indent: 10px;
