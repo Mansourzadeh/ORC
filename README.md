@@ -1,4 +1,4 @@
-# Osteoporosis self-assessment tools
+# Osteoporosis Self-Assessment Tools
 **[Home Page](https://mansourzadeh.github.io/ORC/)**
 
 مجموعه ابزارهای خودارزیابی پوکی استخوان 
